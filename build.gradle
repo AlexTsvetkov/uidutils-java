@@ -28,6 +28,7 @@ repositories {
 }
 
 dependencies {
+    compile group: 'com.google.guava', name: 'guava', version: '24.0-jre'
     compile group: 'org.slf4j', name: 'slf4j-api', version:'1.7.22'
     compile group: 'org.bitcoinj', name: 'bitcoinj-core-uniquid', version:'0.15-SNAPSHOT'
     compile group: 'org.json', name: 'json', version:'20170516'
@@ -50,6 +51,6 @@ jacocoTestReport {
     reports {
         xml.enabled false
         csv.enabled false
-        html.destination "${buildDir}/jacocoHtml"
+        // html.destination "${buildDir}/jacocoHtml"
     }
 }

@@ -6,6 +6,9 @@ bin
 .gradle
 .idea
 build
+out/
 *.iml
 gradle
 gradlew*
+.idea/
+.github/
